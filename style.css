@@ -3,29 +3,29 @@
 .homebox {background-color: black;
     width: 500px;
    height: 400px;
-   margin: 10px;
+   margin: 2px;
    margin-left:200px;
-   float: left;
-   padding: 10px;
+   padding: 2px;
+   float:left;
    
    }
 
    .homebox1 {background-color: black;
     width: 500px;
    height: 400px;
-   margin: 10px;
+   margin: 2px;
    margin-left:730px;
-   padding: 10px;
-   margin-top: 31px;
+   padding: 2px;
+   margin-top: 24px;
    }
    
    .homebox2
    {background-color: black;
     width: 500px;
    height: 400px;
-   margin-left:200px;
-   padding: 10px;
-   float: left;
+   margin: 2px;
+   margin-left:730px;
+   padding: 2px;
     }
 
 .homebox3 {background-color: black;
@@ -50,11 +50,19 @@
     margin-top: 20px;
 }      
 
+.aboutmehome {object-fit: fill;
+margin-top:30px ;
+margin-left: 120px;}
+
 h1 {background: black;} 
 
 h2 {font-size: 28px; color:black; font-stretch: extra-expanded; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 h3 {font-size: 80px; color: whitesmoke; font-stretch: extra-expanded; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+h4 {font-size: 18px; color:black; font-stretch: extra-expanded; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+h5 {justify-content: center; align-items: center; font-size: 16px; color:black; font-stretch: extra-expanded; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 
 body {background-color: whitesmoke;}
@@ -117,7 +125,8 @@ p {color: whitesmoke;}
          width: 495px;}
 
 .home {margin-left: 1300px;
-        background-color: transparent}
+        background-color: transparent;
+   }
 
 .title{background-color: black;
     width: 500px;
@@ -150,3 +159,12 @@ p {color: whitesmoke;}
    margin-left:550px;
    padding: 10px;
    }
+
+.submitbutton{margin-top: 40px;
+   border: 5px;
+   border-color: whitesmoke;
+   background-color: rgb(207, 213, 216);
+   justify-content: center;
+   align-content: center;
+   margin-left: 50%;
+   margin-right:50% ; } 
