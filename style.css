@@ -236,19 +236,19 @@ p {color: whitesmoke;}
 }
 
 .left{
-   position: absolute;
+   position: fixed;
   bottom: 0px;
   left:140px;
   font-size: 18px;
-  background-color: aliceblue;
+  background-color: orange;
 }
 
 .right{
-   position: absolute;
+   position:fixed;
    bottom: 0px;
    right: 180px;
    font-size: 18px;
-   background-color: aliceblue;
+   background-color: orange;
 }
 
 
@@ -260,3 +260,25 @@ margin-left: 50%;}
    left:950px;
    font-size: 18px;
 }
+
+.leftc{
+   float: left;
+   width: 50%;
+   clear: both;
+}
+
+.rightc:after{
+   float:right;
+   width: 50%;
+   clear: both;
+}
+
+
+h6 {background: black;
+   color: antiquewhite;
+   text-align: center;
+   padding: 2%;
+   bottom: 0;
+ clear: both;
+}
+ 
